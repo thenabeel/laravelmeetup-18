@@ -32,5 +32,6 @@ class NotifyExternalSystem implements ShouldQueue
     {
         sleep(5);
         Log::debug('Job executed');
+        // $this->fail();
     }
 }
