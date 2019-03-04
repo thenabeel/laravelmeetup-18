@@ -16,6 +16,7 @@ class HorizonServiceProvider extends HorizonApplicationServiceProvider
     public function boot()
     {
         parent::boot();
+        // Horizon::night();
 
         // Horizon::routeSmsNotificationsTo('15556667777');
          Horizon::routeMailNotificationsTo(config('app.admin_email'));
